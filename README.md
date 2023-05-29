@@ -1,15 +1,9 @@
 # flappybirdclone
 
-<button onclick="copyToClipboard('Hello, clipboard!')">Copy to Clipboard</button>
+Step 1: Install python
 
-<script>
-  function copyToClipboard(text) {
-    const el = document.createElement('textarea');
-    el.value = text;
-    document.body.appendChild(el);
-    el.select();
-    document.execCommand('copy');
-    document.body.removeChild(el);
-    alert('Copied to clipboard: ' + text);
-  }
-</script>
+Step 2: pip install pygame
+
+Step 3: python flappy.py
+
+<space> to flap.
